@@ -1,9 +1,9 @@
------
+---
 title: Introduction
 date: 16th Febuary 2011
 prev: _
 next: <a href="/pages/peano.md">Hello, Peano → </a>
------
+---
 
 About this tutorial
 ===================
