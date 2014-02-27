@@ -1,8 +1,8 @@
 ---
-title: Introduction
-date: 16th Febuary 2011
-prev: _
-next: <a href="/pages/peano.md">Hello, Peano → </a>
+title: "Introduction"
+date: 2014-02-22 02:11:18 -0500
+prev: [Toc](toc.md)
+next: [Hello, Peano →](peano.md)
 ---
 
 About this tutorial
