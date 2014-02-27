@@ -1,9 +1,7 @@
------
-title: Propositions and Predicates
-date: 16th Febuary 2011
-prev: <a href="/pages/peano.md">← Hello, Peano</a>
-next: <a href="#">Peano Proofs →</a>
------
+
+[← PREV: Hello, Peano](/pages/peano.md)
+
+# Propositions and Predicates
 
 “Logic is the art of going wrong with confidence”
 =================================================

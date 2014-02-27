@@ -1,9 +1,10 @@
------
-title: Hello, Peano
-date: 16th Febuary 2011
-next: <a href="/pages/proofs.md">Propositions and Predicates →</a>
-prev: <a href="/pages/introduction.md">← Introduction</a>
------
+
+[← PREV: Introduction](/pages/introduction.md)  [NEXT: Propositions and Predicates →](/pages/proofs.md)
+
+-----------------------------------------------
+
+# Hello, Peano
+
 
 Definitions, Definitions
 ========================
@@ -193,3 +194,8 @@ how to encode logical proofs in Agda using this system.
 [^2]: Unlike Haskell, type declarations are mandatory.
 [^3]: Don't worry if you're scared by that `∀` sign, all will be explained in time.
 [^4]: Don't be scared by the term - structural recursion is when a recursive function follows the structure of a recursive data type - it occurs very frequently in functional programs. 
+
+-----------------------------------------------
+
+[← PREV: Introduction](/pages/introduction.md)  [NEXT: Propositions and Predicates →](/pages/proofs.md)
+

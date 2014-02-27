@@ -1,10 +1,7 @@
------
-title: "Introduction"
-date: 2014-02-22 02:11:18 -0500
-prev: [Toc](/toc.md)
-next: [Hello, Peano](/pages/peano.md)
 
------
+[← PREV: Toc](/toc.md)  [NEXT: Hello, Peano →](/pages/peano.md)
+
+--------------------
 
 About this tutorial
 ===================
