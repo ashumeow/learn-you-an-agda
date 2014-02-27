@@ -81,7 +81,7 @@ is very powerful, I fear that such type machinery is
 very often difficult to understand and manipulate. Even in Haskell, applications that make
 extensive use of type-level computation are very often substantially harder to comprehend. 
 The type-level "language" is almost always substantially more complicated to
-work with than the value-level "language".[^1][]. 
+work with than the value-level "language".[note 1][]
 
 In Agda, the distinction between types and values does not exist. Instead, the language you
 use to manipulate type terms is exactly the same language that you use to manipulate values.
@@ -147,7 +147,7 @@ In fact, Curry-Howard shows us that the fundamentals of functional programming (
 and the fundamentals of mathematical proof (Logic) are in fact the same thing (*isomorphic*). This
 means that we can structure mathematical proofs in Agda as *programs*, and have Agda check them
 for us. It's just as valid as a standard pen-and-paper mathematical proof (probably more so, seeing
-as Agda doesn't let us leave anything as "an exercise to the reader"[^2][]) - and Agda can check
+as Agda doesn't let us leave anything as "an exercise to the reader"[note 2][]) - and Agda can check
 our proof's correctness automatically for us. We'll be doing this later by proving some basic 
 mathematical properties on Peano natural numbers.
 
@@ -184,8 +184,8 @@ Once you have Haskell and Emacs, there are three things you still need to do:
 By then you should be all set. To find out if everything went as well as expected, head on over
 to the next section, "Hello Peano!".
 
-[^1]: Fans of C++ would know what I'm talking about here.
-[^2]: If only Agda existed when Fermat was around.
+[note 1]: Fans of C++ would know what I'm talking about here.
+[note 2]: If only Agda existed when Fermat was around.
 
 
 
