@@ -1,6 +1,8 @@
 
 [← PREV: Hello, Peano](/pages/peano.md)
 
+-----------------------------------
+
 # Propositions and Predicates
 
 “Logic is the art of going wrong with confidence”
@@ -382,7 +384,7 @@ We can also prove the algebraic properties of disjunction, such as commutativity
 ∨-comm = ∧-intro ∨-comm′ ∨-comm′
 ~~~~~
 
-The associativity proof is left as an exercise to the reader[^1].
+The associativity proof is left as an exercise to the reader.
 
 Negation
 --------
@@ -417,10 +419,7 @@ constructive proof in Agda, which covers a vast range of possible proofs, includ
 
 The next chapter will introduce relational equality, and begin proving some theorems about the Peano numbers we introduced in the previous chapter. Happy Hacking!
 
+-----------------------------------
 
+[← PREV: Hello, Peano](/pages/peano.md)
 
-
-
-[^0]: Associativity of string concatenation is also assumed.
-
-[^1]: Muahahaha.

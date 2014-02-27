@@ -185,9 +185,12 @@ to the next section, "Hello Peano!".
 
 Notes
 -----
-[1]: "Fans of C++ would know what I'm talking about here."
-[2]: "If only Agda existed when Fermat was around."
+[1]: Fans of C++ would know what I'm talking about here.  
+[2]: If only Agda existed when Fermat was around.
 
+--------------------
+
+[← PREV: Toc](/toc.md)  [NEXT: Hello, Peano →](/pages/peano.md)
 
 
 

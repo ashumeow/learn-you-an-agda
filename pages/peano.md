@@ -66,7 +66,7 @@ mathematical definition. The notation I'm using here should be familiar to anyon
 we'll be developing models for similar things in Agda later, so you will be able to pick it up as we go along. 
 
 * Zero is a natural number ($0\in\mathbb{N}$). 
-* For any natural number $n$, $n + 1$ is also a natural number. For convenience, We shall refer to $n + 1$ as $\mathtt{suc}\ n$[^1]. ($\forall n \in \mathbb{N}.\ \mathtt{suc}\ n \in \mathbb{N}$).
+* For any natural number $n$, $n + 1$ is also a natural number. For convenience, We shall refer to $n + 1$ as $\mathtt{suc}\ n.$[^1](#notes) ($\forall n \in \mathbb{N}.\ \mathtt{suc}\ n \in \mathbb{N}$).
 
 This is called an *inductive definition* of natural numbers. We call it *inductive* because it consists of a *base* rule, where we define a fixed starting point,
 and an *inductive* rule that, when applied to an element of the set, *induces* the next element of the set. This is a very elegant way to define infinitely large sets. This way
@@ -129,7 +129,7 @@ Now we're going to define some arithmetic operations on our natural numbers. Let
 _+_ : ℕ → ℕ → ℕ 
 ~~~~
 
-Here I'm declaring a function. To start with, I give it a type[^2] - it takes two natural numbers, and returns a natural number. 
+Here I'm declaring a function. To start with, I give it a type[^2](#notes) - it takes two natural numbers, and returns a natural number. 
 
 <div class="aside">
 ### What do those underscores mean?
@@ -137,7 +137,7 @@ Here I'm declaring a function. To start with, I give it a type[^2] - it takes tw
 Unlike Haskell which has only prefix functions (ordinary functions) and infix functions (operators), Agda supports *mixfix* syntax. This allows you to declare
 functions where the arguments can appear anywhere within a term. You use underscores to refer to the "holes" where the arguments are meant to go.
 
-So, an if-then-else construct in Agda can be declared with[^3]:
+So, an if-then-else construct in Agda can be declared with[^3](#notes):
 
 ~~~{.agda}
 if_then_else_ : ∀ { a } → Bool → a → a → a
@@ -148,7 +148,7 @@ flexibility delivers great expressive power, but be careful about using it too m
 
 </div>
 
-Now, let's implement this function by structural recursion[^4].
+Now, let's implement this function by structural recursion[^4](#notes).
 
 ~~~{.agda}
 _+_ : ℕ → ℕ → ℕ 
@@ -190,10 +190,12 @@ And we get the result (5):
 In this chapter we have examined the Peano natural numbers, and defined some basic functions and data types in Agda. In the next chapter, we'll look at propositional logic, and
 how to encode logical proofs in Agda using this system.
 
-[^1]: `suc` standing for successor.
-[^2]: Unlike Haskell, type declarations are mandatory.
-[^3]: Don't worry if you're scared by that `∀` sign, all will be explained in time.
-[^4]: Don't be scared by the term - structural recursion is when a recursive function follows the structure of a recursive data type - it occurs very frequently in functional programs. 
+## Notes
+
+[^1]: `suc` standing for successor.  
+[^2]: Unlike Haskell, type declarations are mandatory.  
+[^3]: Don't worry if you're scared by that `∀` sign, all will be explained in time.  
+[^4]: Don't be scared by the term - structural recursion is when a recursive function follows the structure of a recursive data type - it occurs very frequently in functional programs.   
 
 -----------------------------------------------
 
