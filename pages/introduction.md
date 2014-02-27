@@ -103,17 +103,17 @@ Types are Proofs
 <img class='img right' src='/static/owl.png' />
 
 If I can come up with a function of type `Foo -> Bar` (and Agda says that it's type correct)
-that means that I've, in addition to written a program, also written a proof by construction
-that, assuming some premise `Foo`, the judgement `Bar` holds (We'll touch more on proofs later - 
-I don't want to get bogged down in details just yet)
+that means that I've written not only a program, but also a proof by construction
+that, assuming some premise `Foo`, the judgement `Bar` holds. (We'll touch more
+on proofs later; I don't want to get bogged down in details just yet.)
 
 Seeing as our `Foo` and `Bar` can be as expressive as we like, this lets us prove *anything we
 want* about our program simply by exploiting this correspondence between proofs and programs -
 called the [Curry-Howard Correspondence](http://en.wikipedia.org/wiki/Curry–Howard_correspondence),
 discovered by two brilliant logicians in the sixties.
 
-<div class="aside"> 
 ### Why prove when you can just test?
+
 The validity of formal verification of software is often hotly contested by programmers who usually 
 have no experience in formal verification. Often testing methodologies are presented as a more viable
 alternative.
@@ -137,7 +137,7 @@ that testing could replace formal verification completely. Here's three of reaso
 Of course, proofs are not for every scenario, but I think they should be far more widely used than they
 currently are.
 
-</div>
+
 
 Thanks to Curry-Howard, Agda can also be used as a *proof* language, as opposed to a *programming*
 language. You can construct a proof not just about your program, but anything you like.
