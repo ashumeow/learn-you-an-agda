@@ -1,3 +1,6 @@
+Title: Hello, Peano
+Author: ejwlejw
+Date: Feb 22, 2014
 
 [← PREV: Introduction](/pages/introduction.md)  [NEXT: Propositions and Predicates →](/pages/proofs.md)
 
@@ -66,7 +69,8 @@ mathematical definition. The notation I'm using here should be familiar to anyon
 we'll be developing models for similar things in Agda later, so you will be able to pick it up as we go along. 
 
 * Zero is a natural number ($0\in\mathbb{N}$). 
-* For any natural number $n$, $n + 1$ is also a natural number. For convenience, We shall refer to $n + 1$ as $\mathtt{suc}\ n.$[^1](#notes) ($\forall n \in \mathbb{N}.\ \mathtt{suc}\ n \in \mathbb{N}$).
+* For any natural number $n$, $n + 1$ is also a natural number. For convenience,
+  We shall refer to $n + 1$ as $\mathtt{suc}\ n.$![^1][note 1] ($\forall n \in \mathbb{N}.\ \mathtt{suc}\ n \in \mathbb{N}$).
 
 This is called an *inductive definition* of natural numbers. We call it *inductive* because it consists of a *base* rule, where we define a fixed starting point,
 and an *inductive* rule that, when applied to an element of the set, *induces* the next element of the set. This is a very elegant way to define infinitely large sets. This way
@@ -192,7 +196,7 @@ how to encode logical proofs in Agda using this system.
 
 ## Notes
 
-[^1]: `suc` standing for successor.  
+[note 1]: `suc` standing for successor.  
 [^2]: Unlike Haskell, type declarations are mandatory.  
 [^3]: Don't worry if you're scared by that `∀` sign, all will be explained in time.  
 [^4]: Don't be scared by the term - structural recursion is when a recursive function follows the structure of a recursive data type - it occurs very frequently in functional programs.   
